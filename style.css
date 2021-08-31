@@ -9,7 +9,7 @@ body {
 h2 {
   font-size: 26px;
   font-weight: 400;
-  margin: 0 10px 10px 10px;
+  margin: 0 10px 20px 10px;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ main img {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  width: 95%;
+  width: 100%;
 }
 
 .group {
@@ -152,18 +152,32 @@ footer p {
     flex-direction: column;
   }
 
-  /* -------  Heeader ------- */
+  /* -------  Header ------- */
   header {
-    padding: 10px 20px;
+    padding: 10px;
   }
+
   header .group {
     justify-content: space-between;
     align-items: center;
   }
 
+  .logo {
+    font-size: 40px;
+    padding: 0 10px;
+  }
   /* -------  Search ------- */
   form {
-    padding: 10px;
+    padding: 0 10px;
+  }
+
+  #stay .row {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .search-field {
+    max-width: 150px;
   }
 
   /* -------  About ------- */
